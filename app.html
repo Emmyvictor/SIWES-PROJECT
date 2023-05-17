@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraation Form using Html and CSS</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <!-- Create A section calling main -->
+    <section class="main">
+        <h1 class="title">Registration Form</h1>
+        <form action="#">
+            <!-- Creating a Div and naming it main-box -->
+            <div class="main-box">
+                <div class="input-box">
+                    <span class="text">Full Name</span>
+                    <input type="text" placeholder="Please Your Name" required>
+                </div>
+                <div class="input-box">
+                    <span class="text">UserName</span>
+                    <input type="text" placeholder="Please Your Username" required>
+                </div>
+                <div class="input-box">
+                    <span class="text">Email</span>
+                    <input type="email" placeholder="Please Your Email" required>
+                </div>
+                <div class="input-box">
+                    <span class="text">Phone Number</span>
+                    <input type="number" placeholder="Phone Number" required>
+                </div>
+                <div class="input-box">
+                    <span class="text">Password</span>
+                    <input type="password" placeholder="Please Your Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="text">Confirm Password</span>
+                    <input type="password" placeholder="Please Your Password" required>
+                </div>
+            </div>
+            <div class="container">
+                <input type="radio" name="gender" id="circle-1">
+                <input type="radio" name="gender" id="circle-2">
+                <input type="radio" name="gender" id="circle-3">
+                <span class=" gender">Gender</span>
+                <div class="category">
+                    <label for="circle-1">
+                        <span class="circle one"></span>
+                        <span class="male">Male</span>
+                    </label>
+                    <label for="circle-2">
+                        <span class="circle two"></span>
+                        <span class="male">Male</span>
+                    </label>
+                    <label for="circle-3">
+                        <span class="circle three"></span>
+                        <span class="male">Other</span>
+                    </label>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </section>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
